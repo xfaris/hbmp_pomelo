@@ -1,0 +1,7 @@
+{
+  "id":"master-1",
+  "host":"10.9.1.7",
+  "port":3005,
+  "queryPort":3015,
+  "wsPort":2337
+}

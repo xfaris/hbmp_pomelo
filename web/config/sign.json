@@ -1,0 +1,17 @@
+{
+  "app":
+  [
+    {
+      "app_id": 10001,
+      "app_key": "adkudi1Kdjuel874kHDloeor32"
+    },
+    {
+      "app_id": 10002,
+      "app_key": "ldo983hdkDHui83hKDou3kf102"
+    }
+  ],
+  "path":
+  [
+    "/message/getList"
+  ]
+}

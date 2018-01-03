@@ -1,0 +1,41 @@
+{
+  "connector":[
+    {"id":"visitor", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4050, "clientPort": 3050, "frontend": true, "channelType": -1},
+
+    {"id":"connector-4-1", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4053, "clientPort": 3052, "wssDomain": "ceshi_chat_ch4.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 4, "cloudType":1},
+    {"id":"connector-3-1", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4051, "clientPort": 3051, "wssDomain": "ceshi_chat_ch3.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 3, "cloudType":1},
+    {"id":"connector-2-1", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4054, "clientPort": 3053, "wssDomain": "ceshi_chat_ch2.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 2, "cloudType":1},
+    {"id":"connector-1-1", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4057, "clientPort": 3054, "wssDomain": "ceshi_chat_ch1.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 1, "cloudType":1},
+    {"id":"connector-4-2", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4056, "clientPort": 3055, "wssDomain": "ceshi_chat_ch4.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 4, "cloudType":1},
+    {"id":"connector-3-2", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4052, "clientPort": 3056, "wssDomain": "ceshi_chat_ch3.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 3, "cloudType":1},
+    {"id":"connector-2-2", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4058, "clientPort": 3057, "wssDomain": "ceshi_chat_ch2.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 2, "cloudType":1},
+    {"id":"connector-1-2", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4055, "clientPort": 3058, "wssDomain": "ceshi_chat_ch1.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 1, "cloudType":1},
+    {"id":"connector-2-3", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4061, "clientPort": 3061, "wssDomain": "ceshi_chat_ch2.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 2, "cloudType":1},
+    {"id":"connector-1-3", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4062, "clientPort": 3062, "wssDomain": "ceshi_chat_ch1.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 1, "cloudType":1},
+    {"id":"connector-2-4", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4063, "clientPort": 3063, "wssDomain": "ceshi_chat_ch2.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 2, "cloudType":1},
+    {"id":"connector-1-4", "host":"1.1.1.1", "outerNet":"1.1.1.1", "port":4064, "clientPort": 3064, "wssDomain": "ceshi_chat_ch1.hbmp.com", "wssPort": 443, "frontend": true, "channelType": 1, "cloudType":1}
+  ],
+
+  "chat":[
+    {"id":"chat-4-1", "host":"1.1.1.1", "port":6057, "channelType": 4},
+    {"id":"chat-4-2", "host":"1.1.1.1", "port":6058, "channelType": 4},
+
+    {"id":"chat-3-1", "host":"1.1.1.1", "port":6055, "channelType": 3},
+    {"id":"chat-3-2", "host":"1.1.1.1", "port":6056, "channelType": 3},
+
+    {"id":"chat-2-1", "host":"1.1.1.1", "port":6053, "channelType": 2},
+    {"id":"chat-2-2", "host":"1.1.1.1", "port":6054, "channelType": 2},
+
+    {"id":"chat-1-1", "host":"1.1.1.1", "port":6051, "channelType": 1},
+    {"id":"chat-1-2", "host":"1.1.1.1", "port":6052, "channelType": 1}
+  ],
+
+  "gate":[
+    {"id": "gate-3", "host": "1.1.1.1", "clientPort": 3023, "gateType": "ws", "frontend": true, "cloudType":1},
+    {"id": "gate-wss-3", "host": "1.1.1.1", "clientPort": 3026, "gateType": "wss", "frontend": true, "cloudType":1}
+  ],
+
+  "httpchat": [
+    {"id": "httpchat-1", "host": "1.1.1.1", "port": 3024}
+  ]
+}

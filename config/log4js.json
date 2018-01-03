@@ -1,0 +1,59 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "filename": "./logs/node-log-${opts:serverId}.log",
+      "maxLogSize": 104857600,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/",
+      "pattern": "info-${opts:serverId}.log.yyyyMMdd",
+      "maxLogSize": 104857600,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "alwaysIncludePattern": true,
+      "category":"info-log"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/",
+      "pattern": "redis-${opts:serverId}.log.yyyyMMdd",
+      "maxLogSize": 104857600,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "alwaysIncludePattern": true,
+      "category":"redis-log"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/",
+      "pattern": "chat.event-yyyy-MM-dd.log",
+      "maxLogSize": 104857600,
+      "layout": {
+        "type": "pattern",
+        "pattern": "[%d %r] [%p] EVENT - zx pomelo %m"
+      },
+      "backups": 5,
+      "alwaysIncludePattern": true,
+      "category":"EVENT"
+    }
+  ],
+
+  "levels": {
+    "[all]": "WARN",
+    "info-log": "INFO",
+    "EVENT": "INFO",
+    "redis-log": "INFO"
+  },
+
+  "replaceConsole": true
+}

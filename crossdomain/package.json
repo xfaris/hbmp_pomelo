@@ -1,0 +1,11 @@
+{
+  "name": "crossdomain",
+  "version": "0.0.2",
+  "private": false,
+  "dependencies": {
+    "log4js": "0.6.26",
+    "crc": "0.2.0",
+    "net": "~1.0.0",
+    "node-ka-patch": "0.0.3"
+  }
+}

@@ -1,0 +1,7 @@
+install:
+npm install -g strongloop
+
+start:
+slc start
+slc ctl
+slc ctl set-size web 4

@@ -1,0 +1,16 @@
+{
+  "name": "chatofpomelo",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "log4js": "0.6.26",
+    "crc": "0.2.0",
+    "pomelo": "1.2.0",
+    "pomelo-logger": "0.1.6",
+    "net": "~1.0.0",
+    "async": "1.5.0",
+    "redis": "2.4.2",
+    "generic-pool": "2.2.2",
+    "pomelo-http-plugin": "0.0.25"
+  }
+}
